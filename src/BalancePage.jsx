@@ -197,11 +197,11 @@ export default function BalancePage() {
         <div className="px-4 py-4 border-b border-slate-200">
           <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3 px-2">Quick Actions</h3>
           <div className="space-y-2">
-            <a href="#search" className="w-full px-4 py-2.5 rounded-xl bg-teal-600 text-white font-semibold hover:bg-teal-700 transition-colors flex items-center justify-center gap-2">
+            <a href="/search" className="w-full px-4 py-2.5 rounded-xl bg-teal-600 text-white font-semibold hover:bg-teal-700 transition-colors flex items-center justify-center gap-2">
               <span className="text-lg">+</span>
               New driver check
             </a>
-            <a href="#balance" className="w-full px-4 py-2.5 rounded-xl border border-indigo-200 text-indigo-600 font-semibold hover:bg-indigo-50 transition-colors flex items-center justify-center gap-2">
+            <a href="/balance" className="w-full px-4 py-2.5 rounded-xl border border-indigo-200 text-indigo-600 font-semibold hover:bg-indigo-50 transition-colors flex items-center justify-center gap-2">
               <span className="text-lg">$</span>
               Top up your balance
             </a>
@@ -212,7 +212,7 @@ export default function BalancePage() {
         <nav className="flex-1 px-4 py-6 border-b border-slate-200">
           <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3 px-2">Navigation</h3>
           <div className="space-y-1">
-            <a href="#search" className="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-700 hover:bg-slate-100 transition-colors">
+            <a href="/search" className="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-700 hover:bg-slate-100 transition-colors">
               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <circle cx="11" cy="11" r="8" />
                 <path d="m21 21-4.35-4.35" />
@@ -233,14 +233,14 @@ export default function BalancePage() {
         <div className="px-4 py-6">
           <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3 px-2">Account</h3>
           <div className="space-y-1">
-            <a href="#profile" className="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-700 hover:bg-slate-100 transition-colors">
+            <a href="/profile" className="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-700 hover:bg-slate-100 transition-colors">
               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
                 <circle cx="12" cy="7" r="4" />
               </svg>
               Profile
             </a>
-            <a href="#balance" className="flex items-center justify-between px-4 py-3 rounded-xl bg-indigo-100 text-indigo-700 transition-colors">
+            <a href="/balance" className="flex items-center justify-between px-4 py-3 rounded-xl bg-indigo-100 text-indigo-700 transition-colors">
               <div className="flex items-center gap-3">
                 <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <line x1="12" y1="1" x2="12" y2="23" />
@@ -249,7 +249,7 @@ export default function BalancePage() {
                 My Packages
               </div>
             </a>
-            <a href="#checks" className="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-700 hover:bg-slate-100 transition-colors">
+            <a href="/checks" className="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-700 hover:bg-slate-100 transition-colors">
               <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
                 <circle cx="12" cy="12" r="3" />
